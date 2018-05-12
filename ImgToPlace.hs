@@ -7,6 +7,7 @@ import Graphics.Image as I hiding (map)
 import Control.Monad
 import Data.Tuple
 import System.Environment
+import System.Exit
 import System.IO
 
 

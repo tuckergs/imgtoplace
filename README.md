@@ -13,6 +13,14 @@ cabal update
 cabal install hip
 ```
 
+You can then compile by running, as per the L^2 norm:
+
+```
+make
+```
+
+Note the makefile also has a target, called cleanout, to clear the a files
+
 ## Notes
 
 First, the program's usage is like this

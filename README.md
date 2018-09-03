@@ -29,7 +29,11 @@ First, the program's usage is like this
 ./ImgToPlace <filename>
 ```
 
-Second, the function it generates will be in a.js, and it will have a default name. You can change it by opening up your favorite text editor, like vim. Likewise, the preview is in a.png. 
+Second, the function it generates will be in a.js, and it will have by default the name "f". You can change it by opening up your favorite text editor, like vim. Likewise, the preview is in a.png. 
 
 Third, COSI Place is 500x500, so scale your image down to that size. COSI Place's indexes are between [0,499] for both x and y. The x-axis goes right while the y-axis goes down. Place doesn't crash on out-of-bound indices, so you can have your image greater than 500x500.
+
+Fourth, this accepts only PNGs.
+
+Fifth, if you get errors saying that the image has RGBA8 format when it should have RGB8, just go into GIMP and under Layer -> Transparency, select Remove Alpha Channel, then export to PNG
 

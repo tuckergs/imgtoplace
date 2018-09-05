@@ -1,6 +1,6 @@
 
 all: *.hs
-	ghc ImgToPlace
+	ghc ImgToPlace.hs
 
 clean: cleanout
 	rm *.hi *.o ImgToPlace 
